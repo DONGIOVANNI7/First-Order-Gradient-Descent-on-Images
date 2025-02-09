@@ -10,7 +10,7 @@ transformBack = transforms.ToPILImage()
 Y = transform(auth)
 
 # Define the similarity function, different versions according to difficulty
-task = 'hard'  # Change to 'simple' or 'advanced' as needed
+task = 'advanced'  # Change to 'simple' or 'advanced' as needed
 if task == 'simple':
     similarity = lambda X, Y: 1 - torch.sqrt(torch.mean((X - Y) ** 2))
 elif task == 'advanced':
