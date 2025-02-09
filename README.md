@@ -2,4 +2,4 @@
 1st Order Gradient Descent on Images! 
 
 Based on the following repository: https://github.com/DONGIOVANNI7/0-order-Gradient-Descent-on-Images, 
-we modify the code, in order to be First Order Gradient Descent on the image! 
+we modify the code, in order for the algorithm to be First Order Gradient Descent on the image! 
